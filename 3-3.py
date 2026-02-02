@@ -1,6 +1,0 @@
-x, a, b = map(int, input().split())
-if x <= a and x <= b : print(2)
-elif x <= a : print("Mike")
-elif x <= b : print("Ivan")
-elif x <= a + b : print(1)
-else : print(0)
