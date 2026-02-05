@@ -1,5 +1,7 @@
 n = int(input())
-m = [int(input()) for i in range(n)]
+m = list(map(int, input().split()))
+if len(m) > n : # Удаление лишнего
+    del m[n:]
 
 class ar:
     def __init__(self, val):
